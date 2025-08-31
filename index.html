@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UMAR-DEV labs</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="UMAR-DEV labs - ATUKWASA UMAR Portfolio">
+    <meta property="og:description" content="Full Stack Developer portfolio showcasing web development projects and skills. Available for new projects.">
+    <meta property="og:image" content="WhatsApp Image 2025-08-31 at 13.48.08.jpeg">
+    <meta property="og:url" content="https://umarresume.netlify.app">
+    <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
@@ -12,23 +20,20 @@
     <header class="whatsapp-header">
         <div class="header-bg"></div>
         <div class="profile-info">
-            <div class="profile-photo">
-                <!-- Profile photo placeholder -->
-                <img src=" " alt="Profile Photo" id="profile-pic">
-            </div>
-            <div class="profile-details">
+            
+            <div class="profile-details" id="items">
                 <h1>ATUKWASA UMAR</h1>
                 <p>Full Stack Developer</p>
-                <span class="status">Available for projects</span>
+                <span class="status">Available for projects</span><br>
+            </div>
+            <div class="profile-photo" id="items">
+                <!-- Profile photo placeholder -->
+                <img src="WhatsApp Image 2025-08-31 at 13.48.08.jpeg" alt="Profile Photo" id="profile-pic">
             </div>
         </div>
-        <button id="dark-mode-toggle" class="dark-mode-btn">
-            <i class="fas fa-moon"></i>
-        </button>
     </header>
-
     <main>
-        <section id="about">
+        <section id="about"><br><br>
             <h2>About Me</h2>
             <p>Welcome to my portfolio. I am a passionate developer specializing in web technologies.</p>
             <button onclick="generateAndDownloadCV()" class="cv-download">Download My CV</button>
@@ -36,14 +41,14 @@
 
         <section id="education">
             <h2>Education</h2>
-            <p>Currently studying Software Engineering at Digital Regenysis International School.</p>
+            <p>Currently studying Software Engineering at Digital Regenysis International Institute.</p>
         </section>
 
         <section id="projects">
             <h2>My Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <h3>Umar Furniture</h3>
+                    <h3>Carp Furniture</h3>
                     <p>A modern e-commerce platform for furniture sales.</p>
                     <div class="languages">
                         <div class="lang"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"> HTML: 30%</div>
@@ -76,7 +81,7 @@
                     <button class="project-link" data-link="https://orionhub.netlify.app">View Project</button>
                 </div>
                 <div class="project-card">
-                    <h3>Smart Shop</h3>
+                    <h3>Smart List</h3>
                     <p>AI-powered shopping assistant application.</p>
                     <div class="languages">
                         <div class="lang"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"> Python: 40%</div>
@@ -117,13 +122,14 @@
         <div id="date-updater"></div>
         <h3 style="color:green">follow me on;</h3>
         <div class="social-icons">
-            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            
             <a href="https://wa.me/0744759181" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            
+            <a href="www.linkedin.com/in/atuha-umar-50991a341" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://youtube.com/@umararts-f9h?si=WDoytkFF7We_HQ9K" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="mailto:bitbyte790@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
+        call me on; <a href="tel:+254744759181" style="color:blue">0744759181</a>
     </footer>
 
     <!-- Confirmation Popup -->
