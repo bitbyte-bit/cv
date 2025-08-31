@@ -6,8 +6,9 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
     
+    const number = '+256744759181'; 
     const whatsappMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
-    const whatsappUrl = `https://wa.me/0744759181?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `${number}?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.location.href = whatsappUrl;
 });
