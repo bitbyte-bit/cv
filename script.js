@@ -8,7 +8,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     
     const number = '+256744759181'; 
     const whatsappMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
-    const whatsappUrl = `${number}?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/${number}?text=${encodeURIComponent(whatsappMessage)}`;
     
     window.location.href = whatsappUrl;
 });
@@ -179,3 +179,4 @@ function generateAndDownloadCV() {
         document.body.removeChild(element);
     });
 }
+
